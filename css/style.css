@@ -203,6 +203,10 @@ body {
   .text {
     display: none;
   }
+  
+  .logo {
+    height: 50px;
+  }
 
   .bar {
     overflow: visible;
@@ -626,6 +630,9 @@ input:-webkit-autofill {
 /* logo */
 
 .logo {
- display: inline-block; 
-  margin: 0 auto;
+ display: inline; 
+ margin: 0 0 -105px 0;
+ height: 100px;
+ position: relative;
+  z-index: 10;
 }
