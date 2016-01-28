@@ -205,7 +205,8 @@ body {
   }
   
   .logo {
-    height: 50px;
+    overflow: visible;
+    padding-bottom: 6px;
   }
 
   .bar {
@@ -478,7 +479,7 @@ input, select, textarea {
 
 .input.submit {
   background-color: #FFF;
-  color: #f72f4e;
+  color: #ccc;
   font-size: 120%;
   height: 80px;
   box-shadow: 0 5px rgba(0, 0, 0, 0.5);
@@ -630,9 +631,9 @@ input:-webkit-autofill {
 /* logo */
 
 .logo {
- display: inline; 
- margin: 0 0 -105px 0;
+ display: inline-block; 
+ margin: 0 0 -105px 15px;
  height: 100px;
  position: relative;
-  z-index: 10;
+  z-index: 5;
 }
