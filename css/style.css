@@ -182,6 +182,7 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  
   .toggle {
     display: block;
   }
@@ -479,7 +480,7 @@ input, select, textarea {
 
 .input.submit {
   background-color: #FFF;
-  color: #ccc;
+  color: #6a8036;
   font-size: 120%;
   height: 80px;
   box-shadow: 0 5px rgba(0, 0, 0, 0.5);
@@ -607,26 +608,6 @@ input:-webkit-autofill {
             transform: translateX(6px);
   }
 }
-@-webkit-keyframes wiggle {
-  0%, 100% {
-    -webkit-transform: rotate(-15deg);
-            transform: rotate(-15deg);
-  }
-  50% {
-    -webkit-transform: rotate(15deg);
-            transform: rotate(15deg);
-  }
-}
-@keyframes wiggle {
-  0%, 100% {
-    -webkit-transform: rotate(-15deg);
-            transform: rotate(-15deg);
-  }
-  50% {
-    -webkit-transform: rotate(15deg);
-            transform: rotate(15deg);
-  }
-}
 
 /* logo */
 
@@ -637,3 +618,33 @@ input:-webkit-autofill {
  position: relative;
   z-index: 5;
 }
+
+/* gobal stuff */
+
+p {
+  margin: 8em 2em 0 2em;
+  display: inline-block;
+  background: rgba(138,45,40,.5);
+  padding: .5em;
+  text-align: center;
+}
+
+.pleft {
+  margin: 2em 1em 0 2em;
+  width: 42%;
+}
+
+.pright {
+  margin: 2em 2em 0 1em;
+  width: 42%;
+  float: right;
+}
+
+/* beer page */
+
+/* gallery */
+
+
+/* histroy */
+
+/* events */
