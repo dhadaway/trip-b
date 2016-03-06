@@ -401,10 +401,12 @@ h1, h2 {
 #form-head .pre {
   display: block;
 }
+,post{
+  background: none;
+}
 #form-head .post {
   display: none;
 }
-
 .form-submitted #form-head {
   -webkit-transform: translateY(250%);
           transform: translateY(250%);
@@ -414,6 +416,7 @@ h1, h2 {
 }
 .form-submitted #form-head .post {
   display: block;
+  
 }
 
 .input {
@@ -622,28 +625,34 @@ input:-webkit-autofill {
 /* gobal stuff */
 
 p {
-  margin: 8em 2em 0 2em;
+  margin: 130px 4% 0 4%;
   display: inline-block;
   background: rgba(138,45,40,.5);
   padding: .5em;
   text-align: center;
+  
+}
+
+aside{
+  margin-top: -110px;
+  width: 100%;
+  max-width: 100%;
 }
 
 .pleft {
-  margin: 2em 1em 0 2em;
-  width: 42%;
+  width: 41%;
+  margin-right: -3%;
 }
 
 .pright {
-  margin: 2em 2em 0 1em;
-  width: 42%;
+  width: 41%;
+  margin-left: -3%;
   float: right;
 }
 
 /* beer page */
 
 /* gallery */
-
 
 /* histroy */
 
